@@ -28,9 +28,10 @@ function App() {
   );
 
   return (
+    <div className="app">
     <div className='coin-app'>
       <div className='coin-search'>
-        <h1 className='coin-text'>Search a currency</h1>
+        <h1 className='coin-text'>Currency Finder</h1>
         <form>
           <input
             className='coin-input'
@@ -54,6 +55,7 @@ function App() {
           />
         );
       })}
+    </div>
     </div>
   );
 }
